@@ -119,7 +119,7 @@
     }
 
     .screen {
-        @apply md:min-h-screen px-8;
+        @apply min-h-screen px-8;
     }
 
     .cool {
