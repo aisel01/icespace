@@ -1,4 +1,5 @@
 import { About } from '@/components/screens/About';
+import { Contact } from '@/components/screens/Contact';
 import { Cover } from '@/components/screens/Cover';
 import { Projects } from '@/components/screens/Projects';
 import { BottomBar } from '@/components/shared/BottomBar';
@@ -11,6 +12,7 @@ async function Page() {
             <Cover />
             <About />
             <Projects />
+            <Contact />
             <Social />
             <Mail />
             <BottomBar />

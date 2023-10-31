@@ -1,5 +1,3 @@
-import { Button } from '@/components/ui/button';
-import Link from 'next/link';
 import { TechList } from '../shared/TechList';
 
 export function About() {
@@ -29,15 +27,6 @@ export function About() {
                 </p>
                 <TechList />
             </div>
-            <Button variant="default" asChild className="mx-auto w-full max-w-xl">
-                <Link href="mailto:aisel.goo@gmail.com">
-                    Get In Touch
-                </Link>
-            </Button>
         </article>
     );
 }
-
-{/* <p>
-   . Let&apos;s not just build software, let&apos;s build experiences that leave a lasting impression
-</p> */}
