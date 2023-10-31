@@ -119,11 +119,18 @@
     }
 
     .screen {
-        @apply min-h-screen px-8;
+        @apply min-h-screen px-6 md:px-20;
     }
 
     .cool {
         color: transparent;
         background: top / contain no-repeat url('/assets/cool.png');
     }
+
+    .glass {
+        background: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3px);
+    }
 }
+
