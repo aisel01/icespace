@@ -13,7 +13,7 @@ export function Cover() {
             />
             <div className="mt-32 flex max-w-[400px] flex-col gap-10">
                 <p className="text-center text-slogan-small md:text-slogan">
-                    KEEP YOUR HEAD{' '}
+                    KEEP YOUR MIND{' '}
                     <span className="cool" title="cool">
                         COOL
                     </span>

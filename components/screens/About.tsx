@@ -1,6 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { TechList } from './TechList';
+import { TechList } from '../shared/TechList';
 
 export function About() {
     return (

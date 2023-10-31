@@ -1,6 +1,7 @@
-import { About } from '@/components/shared/About';
+import { About } from '@/components/screens/About';
+import { Cover } from '@/components/screens/Cover';
+import { Products } from '@/components/screens/Products';
 import { BottomBar } from '@/components/shared/BottomBar';
-import { Cover } from '@/components/shared/Cover';
 import { Mail } from '@/components/shared/Mail';
 import { Social } from '@/components/shared/Social';
 
@@ -9,6 +10,7 @@ async function Page() {
         <>
             <Cover />
             <About />
+            <Products />
             <Social />
             <Mail />
             <BottomBar />
