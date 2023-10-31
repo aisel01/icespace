@@ -1,3 +1,5 @@
+import { Badge } from '../ui/badge';
+
 const list = [
     { id: 'ts', name: 'TypeScript' },
     { id: 'js', name: 'JavaScript(ES6+)' },
@@ -10,14 +12,15 @@ const list = [
 export function TechList() {
     return (
         <div>
-            <ul className="grid grid-cols-2">
+            <ul className="grid grid-cols-2 gap-1">
                 {list.map(tech => {
                     return (
                         <li
-                            className="before:mr-2 before:content-['⏵']"
                             key={tech.id}
                         >
-                            {tech.name}
+                            <Badge variant="secondary" className="shadow-sm rounded-md">
+                                {tech.name}
+                            </Badge>
                         </li>
                     );
                 })}

@@ -8,7 +8,7 @@ export function Cover() {
             <Image
                 alt="r"
                 src="/assets/melted-logo.png"
-                width={560}
+                width={600}
                 height={0}
             />
             <div className="mt-32 flex max-w-[400px] flex-col gap-10">

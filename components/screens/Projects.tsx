@@ -5,7 +5,7 @@ export function Projects() {
     return (
         <article className="screen flex flex-col gap-14 max-lg:gap-10" id="projects">
             <h1 className="heading">Some Projects</h1>
-            <div className="mx-auto flex max-w-5xl flex-col gap-24">
+            <div className="mx-auto mb-20 flex max-w-5xl flex-col gap-6 md:gap-24">
                 {projects.map((project, i) => {
                     return (
                         <ProjectCard

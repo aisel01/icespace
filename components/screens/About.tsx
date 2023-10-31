@@ -3,11 +3,11 @@ import { TechList } from '../shared/TechList';
 export function About() {
     return (
         <article
-            className="screen flex flex-col gap-14 max-lg:gap-10"
+            className="screen flex flex-col gap-32 max-lg:gap-10"
             id="about"
         >
             <h1 className="heading">About me</h1>
-            <div className="mx-auto flex max-w-xl flex-col justify-center gap-4 text-left text-body">
+            <div className="mx-auto flex max-w-xl flex-col gap-4 text-left text-body">
                 <p>
                     Hi, I&apos;m Aicel — call me Ice if you&apos;re feeling cool.
                 </p>
