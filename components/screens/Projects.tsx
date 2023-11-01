@@ -1,10 +1,13 @@
 import { projects } from '@/constants';
-import { ProjectCard } from '../shared/ProjectCard';
+import { ProjectCard } from '@/components/shared/ProjectCard';
+import { StickyHeader } from '@/components/shared/StickyHeader';
 
 export function Projects() {
     return (
         <article className="screen flex flex-col gap-14 max-lg:gap-10" id="projects">
-            <h1 className="heading">Some Projects</h1>
+            <StickyHeader>
+                Some Projects
+            </StickyHeader>
             <div className="mx-auto mb-20 flex max-w-5xl flex-col gap-6 md:gap-24">
                 {projects.map((project, i) => {
                     return (

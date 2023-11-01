@@ -85,7 +85,7 @@
 
 @layer components {
     .heading {
-        @apply text-title flex flex-col items-center font-retro-grave mt-10;
+        @apply text-title flex flex-col items-center font-retro-grave pt-10;
     }
 
     .mail {

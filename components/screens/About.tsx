@@ -1,12 +1,16 @@
-import { TechList } from '../shared/TechList';
+import { TechList } from '@/components/shared/TechList';
+import { StickyHeader } from '@/components/shared/StickyHeader';
+
 
 export function About() {
     return (
         <article
-            className="screen flex flex-col gap-32 max-lg:gap-10"
+            className="screen flex flex-col gap-10"
             id="about"
         >
-            <h1 className="heading">About me</h1>
+            <StickyHeader>
+                About me
+            </StickyHeader>
             <div className="mx-auto flex max-w-xl flex-col gap-4 text-left text-body">
                 <p>
                     Hi, I&apos;m Aicel — call me Ice if you&apos;re feeling cool.

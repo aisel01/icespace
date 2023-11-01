@@ -1,7 +1,7 @@
-import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ScrollTooltip } from '../shared/ScrollTooltip';
+import { Button } from '@/components/ui/button';
+import { ScrollTooltip } from '@/components/shared/ScrollTooltip';
 
 export function Cover() {
     return (
