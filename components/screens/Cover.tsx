@@ -5,10 +5,10 @@ import { ScrollTooltip } from '@/components/shared/ScrollTooltip';
 
 export function Cover() {
     return (
-        <article className="screen flex flex-col  items-center">
-            <div className="flex  flex-1 flex-col items-center justify-center">
+        <article className="screen flex flex-col items-center">
+            <div className="flex flex-1 flex-col items-center justify-center">
                 <Image
-                    alt="r"
+                    alt="logo"
                     src="/assets/melted-logo.png"
                     width={600}
                     height={0}

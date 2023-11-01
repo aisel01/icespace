@@ -4,7 +4,6 @@ import { PropsWithChildren, useRef } from 'react';
 
 import {
     motion,
-    useMotionValueEvent,
     useScroll,
     useTransform,
 } from 'framer-motion';
@@ -24,10 +23,6 @@ export function StickyHeader({ children }: PropsWithChildren) {
         // Into these values:
         [1, 0]
     );
-
-    useMotionValueEvent(scrollYProgress, 'change', (latest) => {
-        console.log('Page scrollYProgress: ', latest);
-    });
 
     return (
         <div className="h-[200px]">

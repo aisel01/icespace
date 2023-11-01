@@ -17,7 +17,7 @@ export function TechList() {
                     <li
                         key={tech.id}
                     >
-                        <Badge variant="secondary" className="rounded-md">
+                        <Badge variant="secondary" className="rounded-md text-control">
                             {tech.name}
                         </Badge>
                     </li>

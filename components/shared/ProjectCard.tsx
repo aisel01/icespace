@@ -29,11 +29,11 @@ export function ProjectCard(props: ProjectCardProps) {
     return (
         <div className={cn('relative md:grid md:grid-cols-8 gap-4')}>
             <div className={cn(
-                `flex flex-col gap-4 rounded-md py-6
-                md:col-span-3`,
+                'flex flex-col gap-4 rounded-md py-6',
+                'md:col-span-3',
                 reverse && 'md:text-right md:items-end'
             )}>
-                <h3 className="text-heading3-bold">
+                <h3 className="text-heading3">
                     <Link
                         className="hover:underline"
                         href={url}
@@ -63,7 +63,7 @@ export function ProjectCard(props: ProjectCardProps) {
                             <li key={tech}>
                                 <Badge
                                     variant="secondary"
-                                    className="rounded-md text-subtle-medium shadow-md"
+                                    className="rounded-md text-control shadow-md"
                                 >
                                     {tech}
                                 </Badge>
@@ -71,7 +71,7 @@ export function ProjectCard(props: ProjectCardProps) {
                         );
                     })}
                 </ul>
-                <div className="flex gap-4 text-subtle-medium text-opacity-50">
+                <div className="flex gap-4 text-control text-opacity-50">
                     <Link
                         href={source}
                         className="text-zinc-500 hover:text-foreground"
@@ -92,9 +92,9 @@ export function ProjectCard(props: ProjectCardProps) {
             </div>
             <div
                 className={cn(
-                    `relative -z-10 flex items-center
-                    md:col-span-5
-                    max-md:hidden`,
+                    'relative -z-10 flex items-center',
+                    'md:col-span-5',
+                    'max-md:hidden',
                     reverse && 'md:-order-1'
                 )}
             >

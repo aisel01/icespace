@@ -11,7 +11,7 @@ export function Contact() {
                 Get In Touch
             </StickyHeader>
             <div className="mt-32 flex flex-col justify-center gap-10 text-center text-body">
-                <p className="text-body-bold">
+                <p>
                     Let&apos;s turn ideas into reality.<br/>
                     Reach out and let&apos;s build something amazing together.
                 </p>

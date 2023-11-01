@@ -1,7 +1,6 @@
 import { TechList } from '@/components/shared/TechList';
 import { StickyHeader } from '@/components/shared/StickyHeader';
 
-
 export function About() {
     return (
         <article
