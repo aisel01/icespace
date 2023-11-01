@@ -8,7 +8,7 @@ export function Projects() {
             <StickyHeader>
                 Some Projects
             </StickyHeader>
-            <div className="mx-auto mb-20 flex max-w-5xl flex-col gap-6 md:gap-24">
+            <div className="mx-auto flex max-w-5xl flex-col gap-6 md:gap-24">
                 {projects.map((project, i) => {
                     return (
                         <ProjectCard

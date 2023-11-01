@@ -5,6 +5,7 @@ export const contacts = {
     linkedin: 'https://www.linkedin.com/in/aisel/',
     github: 'https://github.com/aisel01',
     instagram: 'https://instagram.com/icelab.space',
+    telegram: 'https://t.me/aisel01',
 };
 
 export const socialLinks = [
@@ -46,15 +47,15 @@ export const projects = [
         title: 'Lorem ipsum dolor',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque veritatis libero doloribus aut, praesentium distinctio minima sed, consequuntur officiis odit consectetur dolore sunt perferendis asperiores ratione doloremque, quam unde nihil!',
         techs: ['NextJs', 'React', 'TailwindCSS', 'Shadcn', 'Vercel'],
-        url: '',
-        source: '',
+        url: '/',
+        source: '/',
     },
     {
         image: '/assets/project-2.png',
         title: 'Lorem ipsum dolor',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque veritatis libero doloribus aut, praesentium distinctio minima sed, consequuntur officiis odit consectetur dolore sunt perferendis asperiores ratione doloremque, quam unde nihil!',
         techs: ['NextJs', 'React', 'TailwindCSS', 'Shadcn', 'Vercel'],
-        url: '',
-        source: '',
+        url: '/',
+        source: '/',
     },
 ];

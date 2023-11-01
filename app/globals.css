@@ -113,7 +113,7 @@
     }
 
     .screen {
-        @apply min-h-screen px-6 md:px-20;
+        @apply min-h-screen px-6 md:px-20 pb-12;
     }
 
     .cool {
@@ -125,6 +125,14 @@
         background: rgba(255, 255, 255, 0.5);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(3px);
+    }
+
+    .form-item {
+        @apply flex flex-col items-start;
+    }
+    .form-item_required-field::after {
+        content: '*';
+        font-family: 'Courier New', Courier, monospace;
     }
 }
 

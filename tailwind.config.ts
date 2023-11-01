@@ -38,7 +38,7 @@ module.exports = {
                 '22px',
             ],
             'title': [
-                '14px',
+                '16px',
             ],
             'label': [
                 '10px'

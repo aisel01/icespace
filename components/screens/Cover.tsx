@@ -5,7 +5,7 @@ import { ScrollTooltip } from '@/components/shared/ScrollTooltip';
 
 export function Cover() {
     return (
-        <article className="screen flex flex-col items-center">
+        <article className="screen flex flex-col items-center pb-0">
             <div className="flex flex-1 flex-col items-center justify-center">
                 <Image
                     alt="logo"
