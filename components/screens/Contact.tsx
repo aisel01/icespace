@@ -1,6 +1,8 @@
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+
 import { StickyHeader } from '@/components/shared/StickyHeader';
+import { ContactForm } from '@/components/forms/ContactForm';
+import Link from 'next/link';
+import { contacts } from '@/constants';
 
 export function Contact() {
     return (
@@ -8,15 +10,44 @@ export function Contact() {
             <StickyHeader>
                 Get In Touch
             </StickyHeader>
-            <div className="mt-32  flex max-w-[400px] flex-col justify-center gap-10 text-body">
-                <p>
-                    Let&apos;s turn ideas into reality — reach out and let&apos;s build something amazing together.
+            <div className="mt-32 flex flex-col justify-center gap-10 text-center text-body">
+                <p className="text-body-bold">
+                    Let&apos;s turn ideas into reality.<br/>
+                    Reach out and let&apos;s build something amazing together.
                 </p>
-                <Button variant="default" asChild className="mx-auto w-full max-w-xl">
-                    <Link href="mailto:aisel.goo@gmail.com">
-                        Contact me
-                    </Link>
-                </Button>
+                <ul className="flex justify-center gap-4">
+                    <li>
+                        <Link
+                            href={`mailto:${contacts.mail}`}
+                            about='_blank'
+                            className="hover:underline"
+                        >
+                            LinkedIn
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href={`mailto:${contacts.mail}`}
+                            about='_blank'
+                            className="hover:underline"
+                        >
+                            Telegram
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            href={`mailto:${contacts.mail}`}
+                            about='_blank'
+                            className="hover:underline"
+                        >
+                            Email
+                        </Link>
+                    </li>
+                </ul>
+                <p>
+                    Or drop a line in the form below
+                </p>
+                <ContactForm />
             </div>
         </article>
     );

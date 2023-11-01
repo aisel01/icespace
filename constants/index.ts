@@ -1,19 +1,26 @@
 import { Linkedin, Instagram , Github } from 'lucide-react';
 
+export const contacts = {
+    mail: 'aisel.goo@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/aisel/',
+    github: 'https://github.com/aisel01',
+    instagram: 'https://instagram.com/icelab.space',
+};
+
 export const socialLinks = [
     {
         icon: Linkedin,
-        href: 'https://www.linkedin.com/in/aisel/',
+        href: contacts.linkedin,
         title: 'linkedin',
     },
     {
         icon: Github,
-        href: 'https://github.com/aisel01',
+        href: contacts.github,
         title: 'github',
     },
     {
         icon: Instagram,
-        href: 'https://instagram.com/icelab.space',
+        href: contacts.instagram,
         title: 'instagram',
     },
 ];
