@@ -8,7 +8,7 @@ export function BottomBar() {
             >
                 Built & Designed by Aicel
             </Link>
-            <div>2023</div>
+            <div>2022</div>
         </section>
     );
 }

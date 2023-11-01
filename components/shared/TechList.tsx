@@ -11,20 +11,18 @@ const list = [
 
 export function TechList() {
     return (
-        <div>
-            <ul className="grid grid-cols-2 gap-1">
-                {list.map(tech => {
-                    return (
-                        <li
-                            key={tech.id}
-                        >
-                            <Badge variant="secondary" className="shadow-sm rounded-md">
-                                {tech.name}
-                            </Badge>
-                        </li>
-                    );
-                })}
-            </ul>
-        </div>
+        <ul className="mt-2 grid grid-cols-2 gap-2">
+            {list.map(tech => {
+                return (
+                    <li
+                        key={tech.id}
+                    >
+                        <Badge variant="secondary" className="rounded-md">
+                            {tech.name}
+                        </Badge>
+                    </li>
+                );
+            })}
+        </ul>
     );
 }
