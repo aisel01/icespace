@@ -10,7 +10,7 @@ export function Projects() {
                     return (
                         <ProjectCard
                             reverse={i % 2 === 1}
-                            key={project.url}
+                            key={`${project.url}-${i}`}
                             url={project.url}
                             image={project.image}
                             source={project.source}
