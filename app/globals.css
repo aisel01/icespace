@@ -4,7 +4,7 @@
 
 @layer base {
     :root {
-        /* --background: 80, 100%, 78%; */
+        --gradient: linear-gradient(to top, #cbbacc 0%, #e3eeff 99%, #e3eeff 100%);
 
         --background: 0 0% 100%;
         --foreground: 240 10% 3.9%;
@@ -24,7 +24,6 @@
         --muted: 240 4.8% 95.9%;
         --muted-foreground: 240 3.8% 46.1%;
 
-        /* --accent: 80, 100%, 78%; */
         --accent: 240 4.8% 95.9%;
         --accent-foreground: 240 5.9% 10%;
 
@@ -36,12 +35,16 @@
         --ring: 240 5.9% 10%;
 
         --radius: 0.5rem;
+
+        --aura-size: 200%;
+        --aura-speed: 15s;
+
     }
 
     .dark {
-        --background: 80, 100%, 78%;
+        --gradient: linear-gradient(-20deg, #4e4376 0%, #000000 100%);
 
-        /* --background: 240 10% 3.9%; */
+        --background:  0 0% 2%;
         --foreground: 0 0% 98%;
 
         --card: 240 10% 3.9%;
@@ -76,9 +79,7 @@
         @apply border-border;
     }
     body {
-        @apply bg-background text-foreground;
-        background-image: linear-gradient(225deg, #a8edea 0%, #fed6e3 100%);
-        scroll-behavior: smooth;
+        @apply bg-gradient bg-background text-foreground;
     }
 }
 
@@ -101,11 +102,11 @@
 
     .social-nav::after,
     .mail::before {
-        @apply h-[90px] bg-black inline-block;
+        @apply h-[90px] bg-foreground inline-block;
     }
 
     .social-link {
-        @apply transition-transform hover:-translate-y-[5px] hover:text-red-600 p-2;
+        @apply transition-transform hover:-translate-y-[5px] p-2;
     }
 
     .cover-column {
@@ -127,6 +128,10 @@
         backdrop-filter: blur(3px);
     }
 
+    .dark .glass {
+        background: rgba(89, 72, 127, 0.5);
+    }
+
     .form-item {
         @apply flex flex-col items-start;
     }
@@ -135,4 +140,3 @@
         font-family: 'Courier New', Courier, monospace;
     }
 }
-

@@ -28,7 +28,7 @@ export function ScrollTooltip() {
             <div
                 className={cn(
                     // eslint-disable-next-line quotes
-                    `h-[50px] w-px bg-black text-label after:ml-4 after:whitespace-nowrap after:content-['Scroll_for_more']`,
+                    `h-[50px] w-px bg-foreground text-label after:ml-4 after:whitespace-nowrap after:content-['Scroll_for_more']`,
                 )}
             />
         </motion.div>

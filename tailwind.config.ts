@@ -52,6 +52,9 @@ module.exports = {
                 'retro-basic': ['var(--font-retro-basic)'],
                 'retro-grave': ['var(--font-retro-grave)'],
             },
+            backgroundImage: {
+                gradient: 'var(--gradient)'
+            },
             colors: {
                 border: 'hsl(var(--border))',
                 input: 'hsl(var(--input))',
