@@ -1,21 +1,24 @@
 import { mainNavigation } from '@/constants';
 import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 export function TopBar() {
     return (
-        <nav>
-            <ul className="flex gap-4">
+        <nav className="pt-8">
+            <ul className="flex gap-8">
                 {mainNavigation.map(link => {
                     return (
                         <li
                             key={link.title}
                         >
-                            <Link
-                                href={link.href}
-                                className="p-2 hover:text-rose-900"
-                            >
-                                {link.title}
-                            </Link>
+                            <Button asChild variant="link">
+                                <Link
+                                    href={link.href}
+                                    className="p-2"
+                                >
+                                    {link.title}
+                                </Link>
+                            </Button>
                         </li>
                     );
                 })}

@@ -1,13 +1,13 @@
 
+import Link from 'next/link';
 import { StickyHeader } from '@/components/shared/StickyHeader';
 import { ContactForm } from '@/components/forms/ContactForm';
 import { Button } from '@/components/ui/button';
-import Link from 'next/link';
 import { contacts } from '@/constants';
 
 export function Contact() {
     return (
-        <article className="screen flex flex-col items-center">
+        <article className="screen flex flex-col items-center" id="contacts">
             <StickyHeader>
                 Get In Touch
             </StickyHeader>
