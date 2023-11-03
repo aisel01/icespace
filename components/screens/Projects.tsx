@@ -4,11 +4,11 @@ import { StickyHeader } from '@/components/shared/StickyHeader';
 
 export function Projects() {
     return (
-        <article className="screen flex flex-col gap-14 max-lg:gap-10" id="projects">
+        <article className="screen flex flex-col gap-10" id="projects">
             <StickyHeader>
                 Some Projects
             </StickyHeader>
-            <div className="mx-auto flex max-w-5xl flex-col gap-6 md:gap-24">
+            <div className="mx-auto flex max-w-5xl flex-col gap-12 md:gap-24">
                 {projects.map((project, i) => {
                     return (
                         <ProjectCard

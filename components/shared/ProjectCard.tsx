@@ -29,7 +29,7 @@ export function ProjectCard(props: ProjectCardProps) {
     return (
         <div className={cn('relative md:grid md:grid-cols-8 gap-4')}>
             <div className={cn(
-                'flex flex-col gap-4 rounded-md py-6',
+                'flex flex-col gap-4 rounded-md',
                 'md:col-span-3',
                 reverse && 'md:text-right md:items-end'
             )}>

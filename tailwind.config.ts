@@ -29,7 +29,7 @@ module.exports = {
                 '12px',
             ],
             'heading1': [
-                '45px',
+                '44px',
             ],
             'heading2': [
                 '28px',

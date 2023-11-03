@@ -25,7 +25,7 @@ export function StickyHeader({ children }: PropsWithChildren) {
     );
 
     return (
-        <div className="h-[200px]">
+        <div className="h-[180px] max-md:h-[160px]">
             <motion.h1
                 ref={target}
                 style={{ opacity }}

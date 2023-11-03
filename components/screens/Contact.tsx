@@ -7,11 +7,11 @@ import { contacts } from '@/constants';
 
 export function Contact() {
     return (
-        <article className="screen flex flex-col items-center" id="contacts">
+        <article className="screen flex flex-col items-center gap-10" id="contacts">
             <StickyHeader>
                 Get In Touch
             </StickyHeader>
-            <div className="mt-6 flex flex-col justify-center gap-6 text-center text-body">
+            <div className="flex flex-col justify-center gap-6 text-center text-body">
                 <p className="text-title">
                     Let&apos;s turn ideas into reality.<br/>
                     Reach out and let&apos;s build something amazing together.
