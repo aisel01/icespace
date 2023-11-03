@@ -5,6 +5,7 @@ export function BottomBar() {
         <section className="flex flex-col items-center justify-center gap-2 py-6 text-body-small">
             <Link
                 href="https://github.com/aisel01/icespace"
+                target="_blank"
             >
                 Built & Designed by Aicel
             </Link>

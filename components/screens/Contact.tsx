@@ -21,7 +21,7 @@ export function Contact() {
                         <Button variant="link" asChild>
                             <Link
                                 href={contacts.linkedin}
-                                about='_blank'
+                                target="_blank"
                             >
                                 LinkedIn
                             </Link>
@@ -31,7 +31,7 @@ export function Contact() {
                         <Button variant="link" asChild>
                             <Link
                                 href={contacts.telegram}
-                                about='_blank'
+                                target="_blank"
                             >
                                 Telegram
                             </Link>
@@ -41,7 +41,7 @@ export function Contact() {
                         <Button variant="link" asChild>
                             <Link
                                 href={`mailto:${contacts.mail}`}
-                                about='_blank'
+                                target="_blank"
                             >
                                 Email
                             </Link>
