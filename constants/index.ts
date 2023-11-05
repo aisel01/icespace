@@ -67,3 +67,5 @@ export const projects = [
         source: '/',
     },
 ];
+
+export const GA_MEASUREMENT_ID = 'G-59GSPTYCM2';
