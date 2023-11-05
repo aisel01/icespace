@@ -26,6 +26,7 @@ export function TopBar() {
                     })}
                 </ul>
             </nav>
+            {/* eslint-disable-next-line tailwindcss/enforces-negative-arbitrary-values */}
             <ThemeToggler className="md:absolute md:right-0 md:-mr-[40px] md:p-2" />
         </div>
     );
