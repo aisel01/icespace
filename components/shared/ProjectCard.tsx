@@ -27,7 +27,7 @@ export function ProjectCard(props: ProjectCardProps) {
 
 
     return (
-        <div className={cn('relative md:grid md:grid-cols-8 gap-4')}>
+        <div className={cn('relative md:grid md:grid-cols-8 gap-4 max-md:glass max-md:rounded-md max-md:p-4')}>
             <div className={cn(
                 'flex flex-col gap-4 rounded-md',
                 'md:col-span-3',
@@ -42,7 +42,7 @@ export function ProjectCard(props: ProjectCardProps) {
                         {title}
                     </Link>
                 </h3>
-                <div className="-mx-6 md:hidden">
+                <div className="-mx-4 md:hidden">
                     <Image
                         className="object-cover shadow-lg"
                         src={image}
