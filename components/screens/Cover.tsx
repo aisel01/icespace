@@ -4,7 +4,7 @@ import { TopBar } from '../shared/TopBar';
 
 export function Cover() {
     return (
-        <article className="screen flex flex-col items-center pb-0">
+        <article className="cover screen flex flex-col items-center pb-0">
             <TopBar />
             <div className="flex flex-1 flex-col items-center justify-center">
                 <Image

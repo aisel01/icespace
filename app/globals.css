@@ -35,10 +35,6 @@
         --ring: 240 5.9% 10%;
 
         --radius: 0.5rem;
-
-        --aura-size: 200%;
-        --aura-speed: 15s;
-
     }
 
     .dark {
@@ -83,7 +79,6 @@
     }
     body {
         @apply bg-gradient bg-background text-foreground;
-
     }
 }
 
@@ -139,8 +134,81 @@
     .form-item {
         @apply flex flex-col items-start;
     }
+
     .form-item_required-field::after {
         content: '*';
         font-family: 'Courier New', Courier, monospace;
+    }
+
+    @property --a {
+        syntax: "<percentage>";
+        inherits: false;
+        initial-value: 30%;
+    }
+
+    @property --b {
+        syntax: "<percentage>";
+        inherits: false;
+        initial-value: 60%;
+    }
+
+    @property --c {
+        syntax: "<percentage>";
+        inherits: false;
+        initial-value: 60%;
+    }
+
+    @property --d {
+        syntax: "<percentage>";
+        inherits: false;
+        initial-value: 30%;
+    }
+
+    @keyframes movecenter {
+        from {
+            --a: 45%;
+            --b: 55%;
+            --c: 55%;
+            --d: 45%;
+        }
+        25% {
+            --a: 45%;
+            --b: 45%;
+            --c: 55%;
+            --d: 55%;
+        }
+        50% {
+            --a: 55%;
+            --b: 45%;
+            --c: 45%;
+            --d: 55%;
+        }
+        75% {
+            --a: 55%;
+            --b: 55%;
+            --c: 45%;
+            --d: 45%;
+        }
+        to {
+            --a: 45%;
+            --b: 55%;
+            --c: 55%;
+            --d: 45%;
+        }
+    }
+
+    .cover {
+        background:
+            radial-gradient(ellipse at var(--a) var(--b), #bcd2f5, transparent 40%),
+            radial-gradient(ellipse at var(--c) var(--d), #dbd3fe, transparent 40%);
+        animation-name: movecenter;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier();
+        animation-duration: 6s;
+    }
+
+    .dark .cover {
+        background: none;
+        animation: none;
     }
 }
