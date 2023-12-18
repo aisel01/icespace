@@ -4,7 +4,7 @@ export const contacts = {
     mail: 'aisel.goo@gmail.com',
     linkedin: 'https://www.linkedin.com/in/aisel/',
     github: 'https://github.com/aisel01',
-    instagram: 'https://instagram.com/icelab.space',
+    instagram: 'https://instagram.com/aisel.s',
     telegram: 'https://t.me/aisel01',
 };
 
@@ -43,28 +43,28 @@ export const mainNavigation = [
 
 export const projects = [
     {
-        image: '/assets/project-1.png',
-        title: 'Lorem ipsum dolor',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque veritatis libero doloribus aut, praesentium distinctio minima sed, consequuntur officiis odit consectetur dolore sunt perferendis asperiores ratione doloremque, quam unde nihil!',
-        techs: ['NextJs', 'React', 'TailwindCSS', 'Shadcn', 'Vercel'],
-        url: '/',
-        source: '/',
+        image: '/assets/insights.png',
+        title: 'Social media insights',
+        description: 'Enhanced insights for the Instagram. Application empowers you to manage multiple instagram accounts from one place. Intuitive tool to discover analytics, make smarter decisions and grow faster.',
+        techs: ['NestJs', 'Prisma', 'Postgresql', 'React', 'Vite', 'TailwindCSS', 'Shadcn', 'Recharts'],
+        url: 'https://insta-insights.vercel.app/',
+        source: 'https://github.com/ice-chain/insights',
     },
     {
-        image: '/assets/project-2.png',
-        title: 'Lorem ipsum dolor',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque veritatis libero doloribus aut, praesentium distinctio minima sed, consequuntur officiis odit consectetur dolore sunt perferendis asperiores ratione doloremque, quam unde nihil!',
-        techs: ['NextJs', 'React', 'TailwindCSS', 'Shadcn', 'Vercel'],
-        url: '/',
-        source: '/',
+        image: '/assets/threads.png',
+        title: 'Threads powered with communities',
+        description: 'Clone of Meta\'s Threads application powered with communities. Project was created in order to learn Next.js 13 with server side rendering and experimental server action feature.',
+        techs: ['NextJs', 'MongoDB', 'Clerk', 'React', 'TailwindCSS', 'Shadcn', 'Vercel'],
+        url: 'https://threads-aisel.vercel.app',
+        source: 'https://github.com/aisel01/threads',
     },
     {
-        image: '/assets/project-1.png',
-        title: 'Lorem ipsum dolor',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque veritatis libero doloribus aut, praesentium distinctio minima sed, consequuntur officiis odit consectetur dolore sunt perferendis asperiores ratione doloremque, quam unde nihil!',
+        image: '/assets/personal.png',
+        title: 'Personal portfolio website',
+        description: 'Showcase of the my projects, skills and expertise. And the first experience in creating my own design.',
         techs: ['NextJs', 'React', 'TailwindCSS', 'Shadcn', 'Vercel'],
-        url: '/',
-        source: '/',
+        url: 'https://icelab.space',
+        source: 'https://github.com/aisel01/icespace',
     },
 ];
 

@@ -199,8 +199,8 @@
 
     .cover {
         background:
-            radial-gradient(ellipse at var(--a) var(--b), #bcd2f5, transparent 40%),
-            radial-gradient(ellipse at var(--c) var(--d), #dbd3fe, transparent 40%);
+            radial-gradient(ellipse at var(--a) var(--b), #98bbf3, transparent 40%),
+            radial-gradient(ellipse at var(--c) var(--d), #c3b6f7, transparent 40%);
         animation-name: movecenter;
         animation-iteration-count: infinite;
         animation-timing-function: cubic-bezier();
