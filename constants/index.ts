@@ -52,8 +52,8 @@ export const projects = [
     },
     {
         image: '/assets/threads.png',
-        title: 'Threads powered with communities',
-        description: 'Clone of Meta\'s Threads application powered with communities. Project was created in order to learn Next.js 13 with server side rendering and experimental server action feature.',
+        title: 'Threads enriched with communities',
+        description: 'Clone of Meta\'s Threads application enriched with communities. Project was created in order to learn Next.js 13 with server side rendering and experimental server action feature.',
         techs: ['NextJs', 'MongoDB', 'Clerk', 'React', 'TailwindCSS', 'Shadcn', 'Vercel'],
         url: 'https://threads-aisel.vercel.app',
         source: 'https://github.com/aisel01/threads',
